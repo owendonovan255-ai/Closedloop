@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Open the live CloseLoop demo",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "landing page to demo navigation",
+      "core dashboard rendering",
+      "demo mode indicator"
+    ],
+    "description": "Verifies the public marketing page opens the interactive CloseLoop demo and the core workspace is visible.",
+    "steps": [
+      "Open the landing page",
+      "Click the See the live demo button",
+      "Verify the CloseLoop workspace opens"
+    ],
+    "expected": "The interactive demo opens with the Summit Roofing & Exteriors workspace, dashboard metrics, navigation, and DEMO MODE indicator visible."
+  },
+  {
+    "name": "Review and queue a recovery opportunity",
+    "viewport": "desktop",
+    "covers": [
+      "opportunity recovery drawer",
+      "AI-style follow-up draft",
+      "editable message",
+      "queue status update"
+    ],
+    "description": "Verifies a user can inspect a stale opportunity and queue its follow-up in demo state.",
+    "steps": [
+      "Open the Opportunities page",
+      "Open the Mason & Carter opportunity",
+      "Review the recovery drawer and follow-up draft",
+      "Click the Approve & queue button"
+    ],
+    "expected": "The recovery drawer shows the opportunity context and editable draft, then the opportunity changes to Queued and a success confirmation is visible."
+  },
+  {
+    "name": "Search and filter opportunities",
+    "viewport": "desktop",
+    "covers": [
+      "opportunity search",
+      "status filtering",
+      "opportunity list state"
+    ],
+    "description": "Verifies the opportunities workspace supports search and status filtering.",
+    "steps": [
+      "Open the Opportunities page",
+      "Enter HVAC in the search box",
+      "Select the At risk tab"
+    ],
+    "expected": "Only matching HVAC opportunities with At risk status remain visible."
+  },
+  {
+    "name": "Run the follow-up automation simulation",
+    "viewport": "desktop",
+    "covers": [
+      "automation workflow",
+      "follow-up queue simulation",
+      "automation progress states"
+    ],
+    "description": "Verifies the primary automation action shows the progress workflow and completes in demo mode.",
+    "steps": [
+      "Open the Follow-up Queue page",
+      "Click the Automate today’s follow-ups button",
+      "Observe the four progress stages",
+      "Wait for the completion state"
+    ],
+    "expected": "The progress moves through scanning, eligibility, draft generation, and queueing, then confirms that 8 follow-ups were queued in demo mode."
+  },
+  {
+    "name": "Use the demo on mobile",
+    "viewport": "mobile",
+    "covers": [
+      "responsive mobile navigation",
+      "mobile opportunity interaction",
+      "drawer accessibility"
+    ],
+    "description": "Verifies the app remains usable at mobile width with the collapsible navigation and opportunity drawer.",
+    "steps": [
+      "Open the demo at mobile width",
+      "Open the sidebar with the menu button",
+      "Navigate to Opportunities",
+      "Open an opportunity recovery drawer"
+    ],
+    "expected": "The sidebar opens, Opportunities is reachable, and the recovery drawer fits within the mobile viewport with usable controls."
+  }
+]
