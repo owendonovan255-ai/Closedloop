@@ -604,13 +604,13 @@ function App() {
           <button
             className="brand brand-button"
             onClick={openLanding}
-            aria-label="CloseLoop home"
+            aria-label="QuoteVoro home"
           >
             <span className="brand-mark">
               <span></span>
               <span></span>
             </span>
-            <span>CloseLoop</span>
+            <span>QuoteVoro</span>
           </button>
           <div className="marketing-nav-links">
             <button
@@ -654,7 +654,7 @@ function App() {
                 Recover the jobs your business is <em>leaving behind.</em>
               </h1>
               <p className="hero-lead">
-                CloseLoop finds stale leads and unsold estimates, prioritizes
+                QuoteVoro finds stale leads and unsold estimates, prioritizes
                 the money at risk, and gives your team the next best action.
               </p>
               <div className="hero-actions">
@@ -692,7 +692,7 @@ function App() {
                     <i></i>
                     <i></i>
                   </div>
-                  <span>CloseLoop · Summit Roofing & Exteriors</span>
+                  <span>QuoteVoro · Summit Roofing & Exteriors</span>
                   <span className="demo-pill">DEMO</span>
                 </div>
                 <div className="mini-dashboard">
@@ -831,7 +831,7 @@ function App() {
                 <span className="section-label">ILLUSTRATIVE DEMO DATA</span>
                 <h2>Make the invisible revenue leak impossible to ignore.</h2>
                 <p>
-                  CloseLoop puts a dollar value on the opportunities your team
+                  QuoteVoro puts a dollar value on the opportunities your team
                   should not forget.
                 </p>
               </div>
@@ -856,7 +856,7 @@ function App() {
                   setLanding(false);
                 }}
               >
-                Show me what CloseLoop would recover <ArrowRight size={17} />
+                Show me what QuoteVoro would recover <ArrowRight size={17} />
               </button>
             </div>
           </section>
@@ -864,13 +864,13 @@ function App() {
           <section className="section quote-section">
             <div className="quote-mark">“</div>
             <blockquote>
-              Your team did the hard work to win the lead. CloseLoop makes sure
+              Your team did the hard work to win the lead. QuoteVoro makes sure
               the follow-up doesn’t die.
             </blockquote>
           </section>
         </main>
         <footer className="marketing-footer">
-          <span>© 2026 CloseLoop</span>
+          <span>© 2026 QuoteVoro</span>
           <span>Demo mode · sample data only</span>
         </footer>
       </div>
@@ -886,7 +886,7 @@ function App() {
               <span></span>
               <span></span>
             </span>
-            <span>CloseLoop</span>
+            <span>QuoteVoro</span>
           </button>
           <button className="close-mobile" onClick={() => setMobileOpen(false)}>
             <X size={20} />
@@ -1232,7 +1232,7 @@ function OverviewPage({
         <div>
           <Sparkles size={17} />
           <div>
-            <b>CloseLoop has one job:</b>
+            <b>QuoteVoro has one job:</b>
             <span>
               make sure promising opportunities don't disappear into the cracks.
             </span>
@@ -2033,7 +2033,7 @@ function OpportunityDrawer({
             <div>
               <span></span>
               <div>
-                <b>CloseLoop flag</b>
+                <b>QuoteVoro flag</b>
                 <small>Recommended recovery action available now</small>
               </div>
             </div>
